@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx ts-node index.ts",
+    "start": "node index.js",
+    “build”: “npm install && tsc”,
     "dev": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
